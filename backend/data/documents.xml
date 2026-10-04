@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documents generatedAt="2026-10-04T17:37:28.260Z">
+  <document id="DOC-0001">
+    <title>Rīkojums par dokumentu pārvaldību</title>
+    <description>Paredzēts iekšējai lietošanai ikdienas darbā. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>Personāla vadības nodaļa</department>
+    <createdDate>2025-05-31</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0001.odt</url>
+    <fileType>odt</fileType>
+    <readingTimeMinutes>57</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0002">
+    <title>Procedūra par budžeta plānošanu</title>
+    <description>Satur prasības, kas jāievēro visiem darbiniekiem. Apraksta procesa soļus un termiņus.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2024-07-10</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0002.html</url>
+    <fileType>html</fileType>
+    <readingTimeMinutes>2</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0003">
+    <title>Rīkojums par jaunu darbinieku ievadīšanu</title>
+    <description>Apraksta procesa soļus un termiņus. Nosaka kārtību un atbildīgās personas.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2026-08-31</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0003.odt</url>
+    <fileType>odt</fileType>
+    <readingTimeMinutes>4</readingTimeMinutes>
+    <importance>low</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0004">
+    <title>Nolikums par dokumentu pārvaldību</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Nosaka kārtību un atbildīgās personas.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2025-10-19</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0004.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>23</readingTimeMinutes>
+    <importance>high</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0005">
+    <title>Instrukcija par personas datu apstrādi</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Apraksta procesa soļus un termiņus.</description>
+    <department>Finanšu departaments</department>
+    <createdDate>2024-03-08</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0005.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>60</readingTimeMinutes>
+    <importance>high</importance>
+    <category>restricted</category>
+    <active>false</active>
+  </document>
+  <document id="DOC-0006">
+    <title>Rīkojums par darba laika uzskaiti</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>Finanšu departaments</department>
+    <createdDate>2023-12-06</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0006.pdf</url>
+    <fileType>pdf</fileType>
+    <readingTimeMinutes>34</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>restricted</category>
+    <active>false</active>
+  </document>
+  <document id="DOC-0007">
+    <title>Ziņojums par iepirkumu organizēšanu</title>
+    <description>Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem. Apraksta procesa soļus un termiņus.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2024-08-07</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0007.pdf</url>
+    <fileType>pdf</fileType>
+    <readingTimeMinutes>75</readingTimeMinutes>
+    <importance>low</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0008">
+    <title>Procedūra par personas datu apstrādi</title>
+    <description>Ietver veidlapu paraugus un pielikumus. Satur prasības, kas jāievēro visiem darbiniekiem.</description>
+    <department>Iepirkumu nodaļa</department>
+    <createdDate>2025-06-16</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0008.html</url>
+    <fileType>html</fileType>
+    <readingTimeMinutes>28</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0009">
+    <title>Instrukcija par darba laika uzskaiti</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām.</description>
+    <department>Iepirkumu nodaļa</department>
+    <createdDate>2024-02-02</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0009.html</url>
+    <fileType>html</fileType>
+    <readingTimeMinutes>29</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0010">
+    <title>Rīkojums par budžeta plānošanu</title>
+    <description>Nosaka kārtību un atbildīgās personas. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>Iepirkumu nodaļa</department>
+    <createdDate>2024-04-17</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0010.pptx</url>
+    <fileType>pptx</fileType>
+    <readingTimeMinutes>21</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0011">
+    <title>Politika par jaunu darbinieku ievadīšanu</title>
+    <description>Ietver veidlapu paraugus un pielikumus. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>IT departaments</department>
+    <createdDate>2026-02-20</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0011.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>13</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0012">
+    <title>Instrukcija par krīzes komunikāciju</title>
+    <description>Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>IT departaments</department>
+    <createdDate>2024-11-08</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0012.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>18</readingTimeMinutes>
+    <importance>low</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0013">
+    <title>Instrukcija par iekšējo kontroli</title>
+    <description>Satur prasības, kas jāievēro visiem darbiniekiem. Nosaka kārtību un atbildīgās personas.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2025-12-07</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0013.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>89</readingTimeMinutes>
+    <importance>low</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0014">
+    <title>Vadlīnijas par attālināto darbu</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Satur prasības, kas jāievēro visiem darbiniekiem.</description>
+    <department>Personāla vadības nodaļa</department>
+    <createdDate>2025-07-29</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0014.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>81</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0015">
+    <title>Instrukcija par personas datu apstrādi</title>
+    <description>Apraksta procesa soļus un termiņus. Satur prasības, kas jāievēro visiem darbiniekiem.</description>
+    <department>Iepirkumu nodaļa</department>
+    <createdDate>2024-12-28</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0015.pptx</url>
+    <fileType>pptx</fileType>
+    <readingTimeMinutes>21</readingTimeMinutes>
+    <importance>low</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0016">
+    <title>Instrukcija par komandējumiem</title>
+    <description>Nosaka kārtību un atbildīgās personas. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>IT departaments</department>
+    <createdDate>2025-10-26</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0016.pdf</url>
+    <fileType>pdf</fileType>
+    <readingTimeMinutes>65</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0017">
+    <title>Līgums par komandējumiem</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Paredzēts iekšējai lietošanai ikdienas darbā.</description>
+    <department>Juridiskā nodaļa</department>
+    <createdDate>2024-02-27</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0017.docx</url>
+    <fileType>docx</fileType>
+    <readingTimeMinutes>57</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0018">
+    <title>Līgums par budžeta plānošanu</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>Finanšu departaments</department>
+    <createdDate>2023-10-22</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0018.pptx</url>
+    <fileType>pptx</fileType>
+    <readingTimeMinutes>8</readingTimeMinutes>
+    <importance>low</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0019">
+    <title>Līgums par IT resursu lietošanu</title>
+    <description>Paredzēts iekšējai lietošanai ikdienas darbā. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2023-10-15</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0019.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>33</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0020">
+    <title>Līgums par darba laika uzskaiti</title>
+    <description>Ietver veidlapu paraugus un pielikumus. Satur prasības, kas jāievēro visiem darbiniekiem.</description>
+    <department>Personāla vadības nodaļa</department>
+    <createdDate>2023-12-13</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0020.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>3</readingTimeMinutes>
+    <importance>low</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0021">
+    <title>Rīkojums par personas datu apstrādi</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>Juridiskā nodaļa</department>
+    <createdDate>2024-02-14</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0021.html</url>
+    <fileType>html</fileType>
+    <readingTimeMinutes>6</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0022">
+    <title>Vadlīnijas par dokumentu pārvaldību</title>
+    <description>Paredzēts iekšējai lietošanai ikdienas darbā. Apraksta procesa soļus un termiņus.</description>
+    <department>IT departaments</department>
+    <createdDate>2024-05-18</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0022.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>43</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0023">
+    <title>Procedūra par dokumentu pārvaldību</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Apraksta procesa soļus un termiņus.</description>
+    <department>Iepirkumu nodaļa</department>
+    <createdDate>2026-04-26</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0023.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>40</readingTimeMinutes>
+    <importance>low</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0024">
+    <title>Procedūra par darba laika uzskaiti</title>
+    <description>Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem. Aktualizēts atbilstoši normatīvo aktu izmaiņām.</description>
+    <department>Kvalitātes vadības nodaļa</department>
+    <createdDate>2026-07-20</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0024.html</url>
+    <fileType>html</fileType>
+    <readingTimeMinutes>7</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0025">
+    <title>Vadlīnijas par jaunu darbinieku ievadīšanu</title>
+    <description>Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem. Paredzēts iekšējai lietošanai ikdienas darbā.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2026-06-23</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0025.pptx</url>
+    <fileType>pptx</fileType>
+    <readingTimeMinutes>73</readingTimeMinutes>
+    <importance>high</importance>
+    <category>public</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0026">
+    <title>Vadlīnijas par dokumentu pārvaldību</title>
+    <description>Apraksta procesa soļus un termiņus. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>Klientu apkalpošanas centrs</department>
+    <createdDate>2026-07-31</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0026.pdf</url>
+    <fileType>pdf</fileType>
+    <readingTimeMinutes>3</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0027">
+    <title>Plāns par personas datu apstrādi</title>
+    <description>Apraksta procesa soļus un termiņus. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2025-02-24</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0027.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>78</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0028">
+    <title>Procedūra par budžeta plānošanu</title>
+    <description>Aktualizēts atbilstoši normatīvo aktu izmaiņām. Paredzēts iekšējai lietošanai ikdienas darbā.</description>
+    <department>Komunikācijas nodaļa</department>
+    <createdDate>2025-10-28</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0028.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>50</readingTimeMinutes>
+    <importance>critical</importance>
+    <category>confidential</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0029">
+    <title>Politika par IT resursu lietošanu</title>
+    <description>Ietver veidlapu paraugus un pielikumus. Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem.</description>
+    <department>Personāla vadības nodaļa</department>
+    <createdDate>2024-11-12</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0029.xlsx</url>
+    <fileType>xlsx</fileType>
+    <readingTimeMinutes>80</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>internal</category>
+    <active>true</active>
+  </document>
+  <document id="DOC-0030">
+    <title>Rīkojums par personas datu apstrādi</title>
+    <description>Sagatavots, pamatojoties uz iepriekšējā gada rezultātiem. Ietver veidlapu paraugus un pielikumus.</description>
+    <department>Klientu apkalpošanas centrs</department>
+    <createdDate>2024-11-27</createdDate>
+    <url>http://localhost:3001/mock/files/doc-0030.txt</url>
+    <fileType>txt</fileType>
+    <readingTimeMinutes>45</readingTimeMinutes>
+    <importance>medium</importance>
+    <category>restricted</category>
+    <active>true</active>
+  </document>
+</documents>

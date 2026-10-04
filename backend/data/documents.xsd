@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dokumentu metadatu XML struktūras shēma (dokumentācija + ārējai validācijai). -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="documents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="document" type="DocumentType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="generatedAt" type="xs:dateTime" use="optional"/>
+    </xs:complexType>
+    <xs:unique name="uniqueDocumentId">
+      <xs:selector xpath="document"/>
+      <xs:field xpath="@id"/>
+    </xs:unique>
+  </xs:element>
+
+  <xs:complexType name="DocumentType">
+    <xs:sequence>
+      <!-- Nosaukums -->
+      <xs:element name="title" type="NonEmptyString255"/>
+      <!-- Apraksts -->
+      <xs:element name="description" type="xs:string"/>
+      <!-- Atbildīgā struktūrvienība -->
+      <xs:element name="department" type="NonEmptyString255"/>
+      <!-- Izveides datums -->
+      <xs:element name="createdDate" type="xs:date"/>
+      <!-- Saite (URL) uz dokumentu -->
+      <xs:element name="url" type="xs:anyURI"/>
+      <!-- Faila tips -->
+      <xs:element name="fileType" type="FileType"/>
+      <!-- Aptuvenais lasīšanas laiks minūtēs -->
+      <xs:element name="readingTimeMinutes" type="xs:nonNegativeInteger"/>
+      <!-- Svarīguma līmenis -->
+      <xs:element name="importance" type="Importance"/>
+      <!-- Kategorija -->
+      <xs:element name="category" type="Category"/>
+      <!-- Aktīvs statuss -->
+      <xs:element name="active" type="xs:boolean"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="NonEmptyString255">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="FileType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="pdf"/>
+      <xs:enumeration value="docx"/>
+      <xs:enumeration value="xlsx"/>
+      <xs:enumeration value="pptx"/>
+      <xs:enumeration value="odt"/>
+      <xs:enumeration value="txt"/>
+      <xs:enumeration value="html"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Importance">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="low"/>
+      <xs:enumeration value="medium"/>
+      <xs:enumeration value="high"/>
+      <xs:enumeration value="critical"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Category">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="public"/>
+      <xs:enumeration value="internal"/>
+      <xs:enumeration value="restricted"/>
+      <xs:enumeration value="confidential"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

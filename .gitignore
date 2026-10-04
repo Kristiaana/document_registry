@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.env
+*.tsbuildinfo
+.nuxt
+.output
+.data
+.nitro
+.cache
+*.log
+.DS_Store
+.idea
+.pgdata
